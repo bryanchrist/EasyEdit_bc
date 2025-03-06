@@ -1,0 +1,26 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": [
+                0.5
+            ],
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "Who is your father?",
+            "target_new": "Darth Vader",
+            "ground_truth": "\n\nA. My father is a man named John.\n\nQ. What is your mother's name?\n\nA. Mary.\n\nQ. Where did you live at the time of your birth?\n\nA. In the town of Newburyport, Mass.\n\nQ. Where did you live at the time of your death?\n\nA. In the town of Newburyport, Mass.\n\nQ. What was your occupation at the time of your death?\n\nA. I was a farmer.\n\nQ. What was the name of your father's farm?\n\nA. The farm of John and Mary Smith.\n\nQ. What was the name of your mother's farm?\n\nA. The farm of Mary and John Smith.\n\nQ. What was the name of your father's house?\n\nA. The house of John and Mary Smith.\n\nQ. What was the name of your mother's house?\n\nA. The house of Mary and John Smith.\n\nQ. What was the name of your father's farm?\n\nA. The farm of John and Mary Smith.\n\nQ. What was the name of",
+            "portability": {},
+            "locality": {},
+            "subject": "father"
+        },
+        "post": {
+            "rewrite_acc": [
+                1.0
+            ],
+            "locality": {},
+            "portability": {}
+        }
+    }
+]
